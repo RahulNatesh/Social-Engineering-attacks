@@ -10,9 +10,9 @@ def authenticate_user(username, password):
     return False
 
 def send_otp_email(email, otp):
-    sender_email = "optimuscocftw@gmail.com"
+    sender_email = "ragalagpt@gmail.com"
     #the mail that is to be connected using smtp with our program
-    sender_password = "monk12ll%3"
+    sender_password = "ragala#69"
     #the password of the above mail id
     message = MIMEText(f"Your OTP: {otp}")
     message["Subject"] = "OTP Verification"
